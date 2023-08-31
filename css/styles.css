@@ -1,0 +1,357 @@
+:root {
+  --white: #fff;
+  --accent-color: #4d5ae5;
+  --title-main-color: #2e2f42;
+  --main-color-text: #434455;
+  --cloud: #f4f4fd;
+  --active-elements-color: #404bbf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--main-color-text);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
+}
+
+.page-header-container {
+  display: flex;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
+}
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+/* .menu-heder-container {
+  /* padding-top: 24px;
+  padding-bottom: 24px; 
+} */
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+.contact-list {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.header-logo-dark-part {
+  color: var(--title-main-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-link {
+  color: var(--title-main-color);
+  font-weight: 500;
+  line-height: 1.5;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  /* letter-spacing: 0.32px; */
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--active-elements-color);
+}
+
+.heder-adress {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.heder-adress-link {
+  color: var(--main-color-text);
+  line-height: 1.5;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.heder-adress-link:hover,
+.heder-adress-link:focus {
+  color: var(--active-elements-color);
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* HERO SECTION n1 */
+
+.hero-section {
+  background-color: var(--title-main-color);
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+/* Header 1 */
+
+/* .hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+} */
+
+.title-hero-section {
+  color: var(--white);
+  font-family: Roboto, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-button {
+  color: var(--white);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  border: none;
+  background: var(--accent-color);
+  line-height: 1.5;
+  display: block;
+  min-width: 169px;
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-button:focus,
+.hero-button:hover {
+  background-color: var(--active-elements-color);
+}
+/* END  HERO SECTION n1 */
+
+/*  BENEFITS SECTIONS ADVANTAGES --*/
+
+.title-advantages {
+  color: var(--title-main-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.text-advantages {
+  /* color: var(--main-color-text); */
+  line-height: 1.5;
+}
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+.advantages-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.title-section {
+  color: var(--title-main-color);
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*  END BENEFITS SECTIONS ADVANTAGES --*/
+
+/* <!-- Our team --> */
+
+.team-sections {
+  background-color: #f4f4fd;
+}
+.title-team-section {
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.persons-card {
+  background-color: var(--white);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.person-job-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.persons-team {
+  color: var(--title-main-color);
+  text-align: center;
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+.job-title {
+  /* color: var(--main-color-text); */
+  text-align: center;
+  line-height: 1.5;
+}
+/*END <!-- Our team --> */
+
+/* portfolio */
+.portfolio-section {
+  background-color: var(--white);
+}
+
+.title-portfolio-section {
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+}
+
+.title-apps {
+  color: var(--title-main-color);
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.type-apps {
+  /* color: var(--main-color-text); */
+  /* Body */
+  line-height: 1.5; /* 150% */
+}
+
+.portfolio-list-title-container {
+  padding: 32px 16px 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+/* END APPS */
+
+/* FOOTER  */
+.footer-section {
+  background: var(--title-main-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-logo-white-part {
+  color: #f4f4fd;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  /* font-style: normal; */
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  /* Body */
+  line-height: 1.5;
+  max-width: 264px;
+}
