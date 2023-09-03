@@ -396,7 +396,7 @@ body {
 }
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
-transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 .title-apps {
@@ -430,13 +430,12 @@ transform: translateY(0%);
 /* .portfolio-list-title-container:focus,
 .portfolio-list-title-container:hover {
   background-color: #31d0aa; */
-  /* box-shadow: 0 2.8px 2.2px red, 0 6.7px 5.3px blue, 0 12.5px 10px green,
+/* box-shadow: 0 2.8px 2.2px red, 0 6.7px 5.3px blue, 0 12.5px 10px green,
     0 22.3px 17.9px purple, 0 41.8px 33.4px orange, 0 100px 80px teal; */
 
-  /* box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+/* box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08); */
-}
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08); }*/
 
 /* .portfolio-list-img-link:focus .overlay,
 .portfolio-list-img-link:hover .overlay {
