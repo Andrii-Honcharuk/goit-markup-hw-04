@@ -470,16 +470,11 @@ body {
 .footer-section-container {
   display: flex;
   margin-left: 156px;
-  margin-right: 120px;
-
-  /* align-items: baseline;
-    margin-left: 156px;
-   margin-right: 120px; */
+  align-items: baseline;
 }
 
 .footer-container-logo {
-  /* margin-left: 156px; */
-  /* margin-right: 120px;  */
+  margin-right: 120px;
 }
 
 .footer-logo-white-part {
