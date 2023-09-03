@@ -365,6 +365,10 @@ body {
   fill: var(--cloud);
 }
 
+.team-list-conatainer {
+  padding: 32px 0;
+}
+
 /*END <!-- Our team --> */
 
 /* portfolio */
