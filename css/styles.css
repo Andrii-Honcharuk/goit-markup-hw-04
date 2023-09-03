@@ -511,7 +511,6 @@ body {
   display: flex;
   /* justify-content: center; */
   gap: 16px;
- 
 }
 
 .logo-icons-footer-socials {
@@ -535,7 +534,7 @@ body {
   background-color: #31d0aa;
 }
 
-.persons-social-icons {
+.footer-social-icons {
   fill: var(--cloud);
 }
 
