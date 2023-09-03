@@ -452,7 +452,9 @@ body {
   background: var(--title-main-color);
   padding-top: 100px;
   padding-bottom: 100px;
+  align-items: baseline;
 }
+
 .footer-container {
   margin-left: 156px;
   margin-right: 120px;
@@ -495,6 +497,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .socials-contacts-footer-container-items {
@@ -508,7 +511,7 @@ body {
   display: flex;
   /* justify-content: center; */
   gap: 16px;
-  margin-top: 16px;
+ 
 }
 
 .logo-icons-footer-socials {
