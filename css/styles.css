@@ -460,17 +460,25 @@ body {
 /* END APPS */
 
 /* FOOTER  */
-.footer-section-container {
+.footer-page {
   display: flex;
   background: var(--title-main-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  align-items: baseline;
-  /* margin-right: 120px; */
+}
+
+.footer-section-container {
+  display: flex;
+  margin-left: 156px;
+  margin-right: 120px;
+
+  /* align-items: baseline;
+    margin-left: 156px;
+   margin-right: 120px; */
 }
 
 .footer-container-logo {
-  margin-left: 156px;
+  /* margin-left: 156px; */
   /* margin-right: 120px;  */
 }
 
@@ -502,7 +510,7 @@ body {
   /* Body */
   line-height: 1.5;
   max-width: 264px;
-    margin-right: 120px; 
+  margin-right: 120px;
 }
 
 .social-media-footer-title {
